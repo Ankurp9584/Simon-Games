@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #011f3f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 44px;
+    font-family: "Press Start 2P", system-ui;
+    color: #fef2bf;
+}
+.boxes{
+    margin: 100px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+.box{
+    border: 10px solid black;
+    border-radius: 20%;
+    height: 220px;
+    width: 220px;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+#red{
+    cursor: pointer;
+    background-color: red;
+}
+
+#green{
+    cursor: pointer;
+    background-color: green;
+}
+#yellow{
+    cursor: pointer;
+    background-color: yellow;
+}
+#blue{
+    cursor: pointer;
+    background-color: blue;
+}
+.click-effect{
+    box-shadow: 0 0 20px white;
+    background-color: grey !important; 
+}
+.click-effect-random{
+    background-color: rgb(0, 218, 242) !important;
+    box-shadow: 0px 0px 20px rgb(0, 218, 242);
+}
